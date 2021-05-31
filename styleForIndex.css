@@ -1,0 +1,80 @@
+
+.sekjenDanIrjen {
+			text-align: center;
+			/*margin: 40px auto;*/
+			border: 2px solid red;
+			
+		}
+
+.sekjen , 
+.irjen {
+			display: inline-block;
+			/*display: inline;*/
+			width: 240px;
+			margin: 20px 80px;	
+			padding: 8px;	
+			border: 2px solid black;
+		}
+
+.dirjenDanBp {
+			text-align: center;
+			margin: 40px auto;
+			padding: 8px;
+			border: 2px solid red;
+		}
+
+.dirjenDanBp div {
+			display: inline-block;
+			/*display: inline;*/
+			vertical-align: middle;
+			width: 140px;
+			height: 150px;
+			margin: 10px 5px;
+			padding: 8px;
+			border: 2px solid black;
+			
+		}
+
+.hubdar p, 
+.hubla p, 
+.hubud p, 
+.ka p, 
+.litbang p {
+			padding: 25px 0;
+		}
+
+.bpsdm p {
+			padding: 15px 0;
+		}
+
+.bpjabodetabek p {
+			padding: 0;
+		}
+
+.pusat {
+			text-align: center;
+			margin: 40px auto;
+			padding: 8px;
+			border: 2px solid red;
+		}
+
+.pusat div {
+			display: inline-block;
+			vertical-align: middle;
+			width: 150px;
+			height: 130px;
+			margin: 10px 8px;
+			padding: 8px;
+			border: 2px solid black;
+		}
+
+.ptik p {
+			padding: 4px 0;
+			background-color: lightblue;
+		}
+
+.pptb p, 
+.pfkki p {
+			padding: 13px 0;
+			background-color: lightblue;
+		}

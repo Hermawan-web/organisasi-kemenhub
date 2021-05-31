@@ -1,0 +1,406 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+body {
+	font-family: arial;
+	text-transform: uppercase;
+	position: relative;
+	background-color: beige;
+}
+
+a {text-decoration: none;}
+.kembali {
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: 20px
+	margin-left: 20px;
+}
+.dbu {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	width: 350px;
+	margin: 48px 470px ;
+	padding: 20px;
+	border: 2px solid black;
+}
+.tu {
+	text-align: center;
+	font-size: 18px;
+	width: 220px;
+	height: 120px;
+	margin-left: 800px;
+	padding: 45px 8px;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+.garisTU {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 135px;
+	top: 250px;
+	left: 665px;
+}
+.garisDirektur1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 255px;
+	top: 145px;
+	left: 665px;
+}
+.garisDirektur2 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 980px;
+	top: 370px;
+	left: 180px;
+}
+.garissubditSatu {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 30px;
+	top: 370px;
+	left: 180px;
+}
+.garissubditDua {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 30px;
+	top: 370px;
+	left: 425px;
+}
+.garissubditEmpat {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 30px;
+	top: 370px;
+	left: 915px;
+}
+.garissubditLima {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 30px;
+	top: 370px;
+	left: 1160px;
+}
+.garissubditSatu1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 35px;
+	top: 540px;
+	left: 180px;
+}
+.garissubditSatu2 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 132px;
+	top: 575px;
+	left: 50px;
+}
+.garissubditSatu3 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 215px;
+	top: 575px;
+	left: 50px;
+}
+.garissubditSatu4 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 23px;
+	top: 675px;
+	left: 50px;
+}
+.garissubditSatu5 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 23px;
+	top: 790px;
+	left: 50px;
+}
+.garissubditDua1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 35px;
+	top: 540px;
+	left: 425px;
+}
+.garissubditDua2 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 127px;
+	top: 575px;
+	left: 300px;
+}
+.garissubditDua3 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 215px;
+	top: 575px;
+	left: 300px;
+}
+.garissubditDua4 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 18px;
+	top: 675px;
+	left: 300px;
+}
+.garissubditDua5 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 18px;
+	top: 790px;
+	left: 300px;
+}
+.garissubditTiga1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 35px;
+	top: 540px;
+	left: 665px;
+}
+.garissubditTiga2  {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 122px;
+	top: 575px;
+	left: 545px;
+}
+.garissubditTiga3 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 215px;
+	top: 575px;
+	left: 545px;
+}
+.garissubditTiga4 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 16px;
+	top: 675px;
+	left: 545px;
+}
+.garissubditTiga5 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 16px;
+	top: 790px;
+	left: 545px;
+}
+.garissubditEmpat1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 35px;
+	top: 540px;
+	left: 915px;
+}
+.garissubditEmpat2 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 122px;
+	top: 575px;
+	left: 795px;
+}
+.garissubditEmpat3 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 215px;
+	top: 575px;
+	left: 795px;
+}
+.garissubditEmpat4 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 10px;
+	top: 675px;
+	left: 795px;
+}
+.garissubditEmpat5 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 10px;
+	top: 790px;
+	left: 795px;
+}
+.garissubditLima1 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 35px;
+	top: 540px;
+	left: 1160px;
+}
+.garissubditLima2 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 127px;
+	top: 575px;
+	left: 1035px;
+}
+.garissubditLima3 {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 215px;
+	top: 575px;
+	left: 1035px;
+}
+.garissubditLima4 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 15px;
+	top: 675px;
+	left: 1035px;
+}
+.garissubditLima5 {
+	border-top: 2px solid black;
+	position: absolute;
+	width: 15px;
+	top: 790px;
+	left: 1035px;
+}
+.garisjabfung {
+	border-left: 2px solid black;
+	position: absolute;
+	height: 506px;
+	top: 370px;
+	left: 787px;
+}
+.subdit { 
+	/*border: 2px solid red;*/
+	width: 1300px;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	margin-left: 20px;
+	padding-left: 40px;
+	display: flex;
+	box-sizing: border-box;
+}
+.subdit fieldset {
+	text-align: center;
+	font-size: 18px;
+	vertical-align: middle;
+	width: 220px;
+	/*height: 120px;*/
+	margin: 10px 12px;
+	padding: 15px 10px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	display: flex;
+}
+.subdit fieldset a {
+	margin: auto;
+}
+.seksiSatu {
+	/*border: 2px solid black;*/
+	width: 1300px;
+	margin-top: 40px;
+	margin-left: 20px;
+	padding-left: 40px;
+	display: flex;
+	box-sizing: border-box;
+}
+.seksiSatu fieldset {
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+	width: 220px;
+	/*height: 120px;*/
+	margin: 10px 12px;
+	padding: 15px 10px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	display: flex;
+}
+.seksiSatu fieldset a { margin: auto; }
+.seksiDua {
+	/*border: 2px solid black;*/
+	width: 1300px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding-left: 40px;
+	display: flex;
+	box-sizing: border-box;
+}
+.seksiDua fieldset {
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+	width: 220px;
+	/*height: 120px;*/
+	margin: 10px 12px;
+	padding: 15px 10px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	display: flex;
+}
+.seksiDua fieldset a { margin: auto; }
+.jabfung {
+	text-align: center;
+	font-size: 14px;
+	width: 180px;
+	height: 80px;
+	margin: 20px 700px;
+	padding: 26px 10px;
+	border: 2px dashed black;
+	box-sizing: border-box;
+}
+
+legend {
+	text-align: left;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
